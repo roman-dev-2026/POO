@@ -2,7 +2,6 @@
 ## Esta es la clase mian principal que contiene los objetos instanciado de la clase Usuario
 
 ```java
-
 package mensajes;
 public class Mensajes {
     public static void main(String[] args) {
@@ -25,10 +24,8 @@ public class Mensajes {
 
     System.out.println("\n--- Buzón de Carla ---");
     carla.verMensajes();
-    }
-    
+    }  
 }
-
 ```
 
 ## Esta es la subclase Usuario con sus atributos con sus constructores con y sin parametros y los metodos set y get
@@ -72,14 +69,11 @@ public class Usuario {
         
     }
 }
-
 ```
 ## esta es la subclase mensaje con sus atributos el constructores con y sin parametros y los metodos set y get
 
 ```java
-
 package mensajes;
-
 public class Mensaje {
    private String contenido;
    private Usuario remitente;
@@ -103,8 +97,6 @@ public class Mensaje {
 
     public void setRemitente(Usuario remitente) {
         this.remitente = remitente;
-    }
-   
+    }  
 }
-
 ```

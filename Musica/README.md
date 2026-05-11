@@ -1,7 +1,6 @@
 # Ejercicio N°5 Musica 16/04/26
 ## Este es el main de la clase principal que contiene el objetos instanciado de la clase Playlist
 ```java 
-
 package actividad.pkg05.ejercicio.pkg1;
 public class musica {
 
@@ -16,14 +15,11 @@ public class musica {
         System.out.println("--- Mi Playlist de los 90/2000 ---");
         misFavoritos.mostrarPlatlist();
         
-    }
-    
+    }    
 }
-
 ```
 ## Esta es la subclase (Cancion) de la clase principal que contiene los atributos de la cancion. con sus constructores con y sin parametros y los metodos set y get
 ```java
-
 public class Cancion {
     private String artista;
     private String cancion;
@@ -47,10 +43,8 @@ public class Cancion {
 
     public void setCancion(String cancion) {
         this.cancion = cancion;
-    }
-    
+    }  
 }
-
 ```
 ## Esta es la subclase (Playlist) que contiene la lista del objeto tipo clase Cancion con sus constructores con y sin parametros y los metodos set y get
 ```java
